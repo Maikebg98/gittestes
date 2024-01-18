@@ -1,0 +1,29 @@
+
+Iniciando o repositorio - $ git init
+Reinitialized existing Git repository in C:/Users/Maike/Documents/Cursos/Git e GitHub/.git/
+
+Verificar o Status do repositorio - $ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   o_que_e_etl.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git - config inicial.txt
+        helloworld.py
+        olamundo.py
+
+
+Adicionar a fila de stage - $ git add o_que_e_etl.md
+
+Criar um Commit - $ git commit -m "Primeiro envio"
+[master (root-commit) d0e82f7] Primeiro envio
+ 1 file changed, 17 insertions(+)
+ create mode 100644 o_que_e_etl.md
+
+Garantir que está trabalhando na branch correta - $ git branch -M main
+
